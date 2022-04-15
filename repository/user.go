@@ -1,9 +1,10 @@
 package repository
 
 import (
-	"HAPPAY_BACKEND/model"
-	""
 	"github.com/jinzhu/gorm"
+	"github.com/ywen233/happy_mall_backend/model"
+
+	"github.com/ywen233/happy_mall_backend/query"
 )
 
 type UserRepository struct {
